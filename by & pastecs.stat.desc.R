@@ -1,3 +1,5 @@
+library(pastecs)
+
 #set data
 gender <- gl(2, 24, labels = c("Female", "Male"))
 alcohol <- gl(3, 8, 48, labels = c("None", "2 Pints", "4 Pints"))
